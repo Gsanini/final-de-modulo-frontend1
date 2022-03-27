@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nome {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #023047;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f9fa;
+  height: 9vh;
+}
+
+.nav-list :hover {
+  color: #a8dadc;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.cor-nav {
+  text-decoration: none;
+  color: #023047;
+  transition: 0.7px;
+}
+
+#hover:hover {
+  color: aqua;
+}
+
+.back1 {
+  background-color: #14213d;
+  width: 30%;
+  
+}
+
+.back2 {
+  background-color:#e5e5e5;
+  width: 70%;
+  height: auto;
+}
+
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#meu-nome {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; 
+  letter-spacing: 3px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  color: #14213d;
+}
+
+
+#imagem-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#imagem-perfil img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+
+#subtitulo {
+  text-align: center;
+  font-weight: 800;
+}
+
+#meusobre {
+  padding-top: 90px;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  color: #14213d;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+}
+
+.contatos {
+  padding-top: 30px;
+}
+
+#telefone {
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color:#e5e5e5 ;
+  letter-spacing: 0.7px;
+  
+}
+
+#numero {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-style: oblique;
+  color: #e5e5e5;
+}
+
+hr {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.base {
+  padding-top: 30px;
+  font-size: 19px;
+  color: #e5e5e5;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.7px;
+}
+
+#endereco-email {
+  text-decoration: none;
+  font-size: 13px;
+  font-family:'Quicksand', sans-serif;
+  font-style: oblique;
+  color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+}
+
+#endereco-email:hover {
+  color: #014f86;
+}
+
+.rua {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: oblique;
+  color: #e5e5e5;
+  text-align: center;
+
+}
+
+.espacamento {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+ }
+
+#icon-github img {
+  width: 35px;
+}
+
+#icon-instagram img {
+  width: 35px;
+  margin-left: 30px;
+}
+
+#icon-linkedin img {
+  width: 35px;
+  margin-left: 30px;
+}
+
+#icon-email img {
+  width: 35px;
+  margin-left: 30px;
+}
+
+#icon-whatsapp {
+  width: 35px;
+  margin-left: 30px;
+}
+
+.footer {
+  background-color: #14213d;
+  height: 4.5vh;
+}
+
+#conhecimentos {
+  padding-top: 90px;
+  margin-left: 25vh;
+  margin-right: 10vh;
+  color: #14213d;
+  font-size: 18px;
+}
+
+.lista-ordenada {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+}
+
+.lista-nao-ordenada {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  list-style-type: circle;
+}
+
+
+
+
+
+
